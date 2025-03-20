@@ -13,7 +13,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
         <div className="flex flex-row-reverse   justify-end">
             
             {/* Profile Image */}
-            <div className="w-1/2 md:w-[200px]">
+            <div className="w-1/2 md:w-[200px] selection:text-[#FFFF00] selection:bg-[#111111]">
                 <img src={profileImage} className="rounded-xl" alt="harsha profile" />
             </div>
         </div>
