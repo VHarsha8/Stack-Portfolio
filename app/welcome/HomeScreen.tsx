@@ -14,7 +14,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({
             
             {/* Profile Image */}
             <div className="w-1/2 md:w-[200px]">
-                <img src={profileImage} className="rounded-xl" alt={`${name}'s Profile`} />
+                <img src={profileImage} className="rounded-xl" alt="harsha profile" />
             </div>
         </div>
     );
