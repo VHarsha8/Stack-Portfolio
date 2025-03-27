@@ -4,7 +4,7 @@ import MyComponent from "../welcome/MyComponent";
 
 export default function Home() {
   return (
-    <div className="flex flex-col md:p-6 px-4  md:max-w-screen-lg m-auto py-4 md:space-y-6 space-y-5">
+    <div className="flex flex-col md:p-6 px-4  md:max-w-screen-lg m-auto py-6 space-y-6 ">
       {/* Home Screen Component */}
       <HomeScreen 
         profileImage="/profile.jpeg" // Ensure this image exists inside the public/ folder
