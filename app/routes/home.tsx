@@ -11,7 +11,7 @@ export default function Home() {
       />
         <MyComponent/>
         <LabelComponent
-        title=""
+        title="About"
         items={[
           { name: "Resume", link: "https://drive.google.com/file/u/0/d/1YPveACNPXM20Ul0CdOP1jzgg7nFE-CdI/view?usp=drivesdk&pli=1" }
         ]}
