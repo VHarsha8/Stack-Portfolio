@@ -1,5 +1,5 @@
 import React, { useState } from "react"; 
-import { CheckCircle } from "lucide-react"; // Import CornerUpRight icon
+import { CornerUpRight } from "lucide-react"; // Import CornerUpRight icon
 
 interface Item { 
   name: string; 
@@ -43,7 +43,7 @@ const LabelComponent: React.FC<LabelComponentProps> = ({ title, items }) => {
                 > 
                   <span>{item.name}</span> 
                   {/* Changed to CornerUpRight */}
-                  <CheckCircle className="w-4 h-4" style={{ color: visitedLinks[item.link] ? "#00FF00" : "#FFFF00" }} />
+                  <CornerUpRight className="w-4 h-4" style={{ color: visitedLinks[item.link] ? "#00FF00" : "#FFFF00" }} />
                 </a> 
               ) : ( 
                 /* Name with Company */ 
