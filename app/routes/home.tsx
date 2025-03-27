@@ -10,6 +10,12 @@ export default function Home() {
         profileImage="/profile.jpeg" // Ensure this image exists inside the public/ folder
       />
         <MyComponent/>
+        <LabelComponent
+        title=""
+        items={[
+          { name: "Resume", link: "https://drive.google.com/file/u/0/d/1YPveACNPXM20Ul0CdOP1jzgg7nFE-CdI/view?usp=drivesdk&pli=1" }
+        ]}
+      />
       {/* Case Studies Section */}
       <LabelComponent
         title="Projects"
