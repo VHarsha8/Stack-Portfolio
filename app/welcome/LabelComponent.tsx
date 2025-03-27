@@ -20,7 +20,7 @@ const LabelComponent: React.FC<LabelComponentProps> = ({ title, items }) => {
   }; 
 
   return ( 
-    <div className="w-full"> 
+    <div className="w-full "> 
       {/* Section Title */} 
       <h1 className="text-sm font-sans font-normal text-white/35 selection:text-[#FFFF00] selection:bg-[#111111] mb-2"> 
         {title} 
